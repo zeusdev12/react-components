@@ -1,0 +1,46 @@
+table {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  border-collapse: collapse;
+  box-shadow: 1px 1px 3px 3px rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+}
+
+th,
+td {
+  height: 88px;
+  border-collapse: collapse;
+
+  text-transform: capitalize;
+}
+
+td:not(:first-child) {
+  border-left: 1px solid rgb(196, 196, 196);
+}
+
+th {
+  text-transform: uppercase;
+  background-color: rgb(53, 202, 228);
+  color: aliceblue;
+
+  font-weight: 500;
+}
+
+th:not(:first-child) {
+  border-left: 1px solid white;
+}
+
+tbody td {
+  color: rgb(129, 129, 129);
+  text-align: center;
+}
+
+tr {
+  background-color: rgb(255, 255, 255);
+}
+
+tr:nth-child(even) {
+  background-color: rgb(228, 228, 228);
+}
